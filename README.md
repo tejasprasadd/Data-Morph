@@ -1,4 +1,4 @@
-# NIRF Data Processing System
+# DataMorph - NIRF Data Processing System
 
 A comprehensive toolkit for extracting, transforming, and analyzing data from National Institutional Ranking Framework (NIRF) reports for educational institutions in India.
 
@@ -36,7 +36,7 @@ The NIRF Data Processing System is designed to automate the extraction of struct
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/nirf-data-processing-system.git
+   git clone https://github.com/tejasprasadd/nirf-data-processing-system.git
    cd nirf-data-processing-system
    ```
 
@@ -76,7 +76,7 @@ This script:
 - Processes PDF files from the `All-Pdfs` directory
 - Extracts data tables and structured information
 - Converts the data into Excel format
-- Outputs Excel files with standardized structure
+- Outputs Excel files with standardised structure
 
 ### Excel to XML Conversion
 
@@ -88,7 +88,7 @@ This script:
 - Reads Excel files from the `All-Excels` directory
 - Converts the data into a hierarchical XML structure
 - Preserves data relationships and metadata
-- Creates XML files with standardized format
+- Creates XML files with standardised format
 
 ### Importing Data to MongoDB
 
@@ -104,7 +104,7 @@ This script:
 
 For detailed MongoDB instructions, see [README_MONGODB.md](README_MONGODB.md).
 
-### Data Normalization and Combination
+### Data Normalisation and Combination
 
 ```bash
 python normalize_excel_sheets.py
