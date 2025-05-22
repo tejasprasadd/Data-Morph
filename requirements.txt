@@ -1,1 +1,5 @@
-openpyxl 
+openpyxl>=3.0.10
+pdfplumber>=0.7.0
+pandas>=1.3.0
+pymongo>=4.0.0
+# xml.etree.ElementTree is built-in with Python
